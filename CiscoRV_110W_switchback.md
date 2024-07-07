@@ -1,4 +1,4 @@
-![image](https://github.com/BuaaIOTTeam/Iot_Cisco/assets/169221427/756738d5-bf18-49ee-a09d-1ccda95b9b9d)# Overview
+# Overview
 Firmware download website: [https://software.cisco.com/download/home/283879340/type/282487380/release/1.2.2.5](https://software.cisco.com/download/home/283879340/type/282487380/release/1.2.2.5)
 [https://software.cisco.com/download/home/283879340/type/282487380/release/1.2.2.8](https://software.cisco.com/download/home/283879340/type/282487380/release/1.2.2.8)
 
