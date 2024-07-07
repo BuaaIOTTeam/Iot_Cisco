@@ -5,7 +5,7 @@ Firmware download website: [https://software.cisco.com/download/home/283879340/t
 # Affected version
 CISCO RV110W  Firmware 1.2.2.5,1.2.2.8
 # Vulnerability details
-The CISCO RV110W 1.2.2.5,1.2.2.8 firmware has a stack overflow vulnerability in switch_vpn_back function. The variable `ipsec_selidx` receives the ipsec_selidx parameter from a POST request. Since the user can control the input of ipsec_selidx, in the `switch_vpn_back`function, Using `sscanf` to parse POST parameters into variables v4 and v5 can lead to a stack overflow.triggering this security vulnerability, which can lead to command execution and denial of service.
+The CISCO RV110W 1.2.2.5,1.2.2.8 firmware has a stack overflow vulnerability in switch_vpn_back function. The variable `ipsec_selidx` receives the ipsec_selidx parameter from a POST request. Since the user can control the input of ipsec_selidx, in the `switch_vpn_back`function, Using `sscanf` to parse POST parameters into variables v4 can lead to a stack overflow.triggering this security vulnerability, which can lead to command execution and denial of service.
 ![image](https://github.com/BuaaIOTTeam/Iot_Cisco/assets/169221427/94756ee0-ff63-4d1d-95b6-301f7a79b80f)
 
 # POC
